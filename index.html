@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital@0;1&amp;family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="nav-block">
+        <h2 class="nav-block_title">Bhromaon</h2>
+        <nav class="nav">
+          <ul>
+            <li>Who We Are</li>
+            <li>What We Do</li>
+            <li>Travel With Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+
+        <div class="burger">
+          <span></span>
+        </div>
+      </section>
+    </header>
+    <script>
+      document.querySelector(".burger").addEventListener("click", function () {
+        this.classList.toggle("active");
+        document.querySelector("nav").classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
